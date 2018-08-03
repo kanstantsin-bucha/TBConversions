@@ -1,0 +1,18 @@
+PODS:
+  - TBConversions (1.0.0):
+    - TBConversions/Parse (= 1.0.0)
+  - TBConversions/Parse (1.0.0)
+
+DEPENDENCIES:
+  - TBConversions (from `../`)
+
+EXTERNAL SOURCES:
+  TBConversions:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TBConversions: 3e3cd2795ad4dfb8a217f4a660d9d7240c5af9f8
+
+PODFILE CHECKSUM: 9f7d8411d959423eed88f08e55e6e32c81d8ecdb
+
+COCOAPODS: 1.5.3

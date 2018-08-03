@@ -7,6 +7,7 @@
 //
 
 #import "TBViewController.h"
+#import <TBConversions/TBParseConversions.h>
 
 @interface TBViewController ()
 
@@ -18,6 +19,15 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray * numbers = [TBParseConversions numbersUsingStringsList: @"1;2;3"];
+    NSLog(@"converted numbers: %@", numbers);
+    
+    NSArray * words = [TBParseConversions wordsUsingStringsList: @"my;her;his"];
+    NSLog(@"converted words: %@", words);
+    
+    NSDictionary * pairs = [TBParseConversions pairsUsingStrings: @"1:2;key:12;gravity: 9.8"];
+    NSLog(@"converted pairs: %@", pairs);
 }
 
 - (void)didReceiveMemoryWarning

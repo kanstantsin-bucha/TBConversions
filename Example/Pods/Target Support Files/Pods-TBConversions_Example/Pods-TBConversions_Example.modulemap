@@ -1,0 +1,6 @@
+framework module Pods_TBConversions_Example {
+  umbrella header "Pods-TBConversions_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
