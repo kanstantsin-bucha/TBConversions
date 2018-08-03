@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'TBConversions_Example' do
+  pod 'TBConversions', :path => '../'
+
+  target 'TBConversions_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
